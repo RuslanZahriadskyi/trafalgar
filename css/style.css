@@ -1,0 +1,153 @@
+:root {
+	--primary-bg-color: #ffffff;
+	--logo-color: #233348;
+	--header-color: #1f1534;
+	--primary-text-color: #000000;
+	--secondart-text-color: #7d7987;
+	--primary-text-bottom-color: #458ff6;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	font-family: "Mulish", sans-serif;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+
+	width: 1440px;
+
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.section {
+	margin-left: auto;
+	margin-right: auto;
+
+	max-width: 1600px;
+}
+
+/* Header */
+
+.container.header {
+	position: relative;
+	width: 1487px;
+	height: 719px;
+	padding-top: 56px;
+}
+
+.nav-header {
+	display: flex;
+	align-items: center;
+}
+
+.header-logo {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 1.25;
+
+	color: var(--header-color);
+}
+
+.span-logo {
+	display: inline-block;
+	margin-left: 191px;
+
+	border-right: 12px;
+	padding: 5px 11px 4px 13px;
+	font-size: 26px;
+	line-height: 1.27;
+	border-radius: 50%;
+
+	color: var(--primary-bg-color);
+
+	background-color: var(--primary-text-bottom-color);
+}
+
+.header-list {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	margin-left: auto;
+	height: 23px;
+}
+
+.header-list .header-items {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.278;
+	color: var(--header-color);
+	opacity: 0.5;
+}
+
+.header-list .header-items + .header-items {
+	margin-left: 40px;
+}
+
+.header-list .header-items:last-child {
+	margin-right: 29px;
+}
+
+.header.text {
+	margin: 0;
+	margin-left: 191px;
+	padding-top: 191px;
+	width: 445px;
+	height: 338px;
+}
+
+.header-title {
+	margin: 0;
+	padding-bottom: 25px;
+
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 1.17;
+}
+
+.header-item {
+	margin: 0;
+	padding-bottom: 45px;
+
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 1.52;
+
+	color: var(--secondart-text-color);
+}
+
+.header-button {
+	padding-right: 40px;
+	padding-left: 40px;
+
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 3.34;
+	color: var(--primary-bg-color);
+
+	border: 0;
+	border-radius: 20px;
+	background-color: var(--primary-text-bottom-color);
+	cursor: pointer;
+}
+
+.trafalgar-img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 693px;
+	height: 598px;
+	background-image: url(../images/trafalgar-header.jpg);
+	background-repeat: no-repeat;
+}
